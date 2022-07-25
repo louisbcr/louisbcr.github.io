@@ -370,6 +370,7 @@ span.arrow_third i:nth-child(3){
     text-align: justify;
     font-family: Lato, sans-serif;
     margin-left: 10%;
+    margin-right: 10%;
     margin-top: 0;
 
 
@@ -381,6 +382,7 @@ span.arrow_third i:nth-child(3){
     font-family: Lato, sans-serif;
     font-weight: 900;
     margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 1vh;
     color: #406e8e;
     margin-top: 2vh;
@@ -599,7 +601,7 @@ iframe{
 
     .btn {
         font-size: 2rem;
-        box-shadow: 5px 5px 0px #9b7f50;
+        box-shadow: 5px 5px 0px #b8d4e3;
     }
     .btn:hover{
         padding-right: 3rem;
@@ -645,12 +647,19 @@ iframe{
         margin-right: 0vh;
         margin-bottom: 2vh;
     }
-    iframe{
 
-        float: inside;
-        margin-bottom: 2vh;
-
-
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        margin-right: 10%;
+        margin-left: 10%;
+        width: 80% !important;
+        height: 80% !important;
     }
     .qi h4{
         margin-top: 2vh;
