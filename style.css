@@ -664,4 +664,9 @@ iframe{
     .qi h4{
         margin-top: 2vh;
     }
+    .text p, .text li {
+        text-align:left;
+        
+    
+    }
 }
