@@ -650,7 +650,7 @@ iframe{
 
     .google-maps {
 
-        padding-bottom: 10%; // This is the aspect ratio
+        padding-bottom: 10%; 
         height: 0;
         overflow: hidden;
     }
@@ -666,7 +666,8 @@ iframe{
     }
     .text p, .text li {
         text-align:left;
-        
-    
+    }
+    .text_localisation {
+        text-align: left;
     }
 }
