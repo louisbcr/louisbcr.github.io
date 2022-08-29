@@ -667,7 +667,10 @@ iframe{
     .text p, .text li {
         text-align:left;
     }
-    .text_localisation {
+    .text_localisation p, .text_localisation h3 {
         text-align: left;
+    }
+    .presentation_text {
+text-align: left;
     }
 }
