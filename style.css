@@ -667,10 +667,16 @@ iframe{
     .text p, .text li {
         text-align:left;
     }
-    .text_localisation p, .text_localisation h3 {
+    .text_localisation p, .text_localisation h3, .text_localisation li {
         text-align: left;
     }
     .presentation_text {
-text-align: left;
+    text-align: left;
+    }
+    .contact li, .contact p {
+        text-align:left;
+    }
+    .description p, .description li {
+        text-align: left;
     }
 }
