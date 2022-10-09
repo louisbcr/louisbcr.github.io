@@ -649,17 +649,19 @@ iframe{
     }
 
     .google-maps {
-
-        padding-bottom: 10%; 
+        position: relative;
+        padding-bottom: 75%; 
         height: 0;
         overflow: hidden;
     }
     .google-maps iframe {
-
-        margin-right: 10%;
-        margin-left: 10%;
+        position: absolute;
+        top: 0;
         width: 80% !important;
-        height: 100% !important;
+        height: 90% !important;
+        margin-left: 10%;
+        margin-right: 10%;
+       
     }
     .qi h4{
         margin-top: 2vh;
