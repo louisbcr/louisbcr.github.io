@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     scroll-behavior: smooth;
 }
@@ -33,8 +33,8 @@ nav {
     align-items: center;
 }
 
-.header__title{
-    position: absolute;
+.header__title {
+    position: relative;
     text-transform: uppercase;
     font-size: 1.5rem;
     font-family: Lato, sans-serif;
@@ -42,7 +42,7 @@ nav {
     letter-spacing: 2px;
     font-weight: 900;
 }
-.header__title a{
+.header__title a {
     text-decoration: none;
     color: black;
 }
@@ -55,7 +55,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    width: 550px;
+    width: 90%;
     font-family: Lato, sans-serif;
     font-weight: 700;
 }
@@ -69,59 +69,59 @@ nav {
     border: 0;
     background: #406e8e;
     font-size: 1rem;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
     border-radius: 2px;
     color: white;
     cursor: pointer;
     font-family: Lato, sans-serif;
     transition: 0.15s;
-    box-shadow: 0.5rem 0.5rem #b8d4e3;
+    box-shadow: 0.5rem 0.5rem 0px #b8d4e3;
 }
 
-.btn:hover{
+.btn:hover {
     padding-right: 1.5rem;
 }
-.btn:hover i{
-    animation : color 2s infinite linear;
+.btn:hover i {
+    animation: color 2s infinite linear;
 }
-span.arrow{
+span.arrow {
     margin-left: 0.2rem;
     position: relative;
 }
 
-span.arrow i{
+span.arrow i {
     transition: 0.2s;
 }
 
-span.arrow i:nth-child(2){
+span.arrow i:nth-child(2) {
     position: absolute;
     right: 0;
-    top:0.2rem;
-    color:white;
+    top: 2px;
+    color: white;
     animation-delay: 0.5s;
 }
-span.arrow i:nth-child(3){
+span.arrow i:nth-child(3) {
     position: absolute;
     right: 0;
-    top:0.2rem;
-    color:white;
+    top: 2px;
+    color: white;
     animation-delay: 1s;
 }
-.btn:hover i:nth-child(2){
-    right: -0.5rem;
+.btn:hover i:nth-child(2) {
+    right: -0.75rem;
 }
-.btn:hover i:nth-child(3){
-    right: -1rem;
+.btn:hover i:nth-child(3) {
+    right: -1.5rem;
 }
 
 @keyframes color {
-    0%{
-        color:white;
+    0% {
+        color: white;
     }
-    50%{
+    50% {
         color: #406e8e;
     }
-    100%{
+    100% {
         color: white;
     }
 }
@@ -138,38 +138,38 @@ h1 {
     font-size: 3rem;
     color: black;
     text-align: center;
-    letter-spacing: 0.2rem;
+    letter-spacing: 2px;
     padding-bottom: 1vh;
     text-transform: uppercase;
 }
 
-h2{
+h2 {
     font-family: Lato, sans-serif;
     font-weight: 700;
     color: black;
     text-align: center;
     padding-top: 1vh;
-    padding-bottom: 0.2rem;
+    padding-bottom: 1vh;
     letter-spacing: 2px;
 }
 
 hr.title {
     margin-left: auto;
     margin-right: auto;
-    width: 20rem;
+    width: 50%;
     border: solid rgb(184, 212, 227);
-    border-bottom-width: 4px;
+    border-bottom-width: 0.4rem;
     display: block;
 }
 hr.title_secondary {
     margin-left: auto;
     margin-right: auto;
-    width: 20rem;
+    width: 50%;
     border: solid black;
-    border-bottom-width: 4px;
+    border-bottom-width: 0.4rem;
     display: block;
 }
-hr.inBetween{
+hr.inBetween {
     margin-bottom: 2vh;
     margin-top: 2vh;
     margin-right: auto;
@@ -181,11 +181,11 @@ hr.inBetween{
 p {
     color: #202124;
     font-family: Lato, sans-serif;
-    font-size: 14pt;
+    font-size: 1.4rem; /* Use relative unit (rem) */
     font-variant: normal;
     vertical-align: baseline;
     text-align: center;
-    padding-bottom: 3vh;
+    padding-bottom: 2vh; /* Use relative unit (vh) */
 }
 
 /* Section Links */
@@ -193,70 +193,68 @@ p {
 .links {
     height: auto;
     background: white;
-
 }
 
 .btn_secondary {
     border: 0;
     background: #c99da3;
     font-size: 1.25rem;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
     border-radius: 2px;
     color: white;
     cursor: pointer;
     font-family: Lato, sans-serif;
     transition: 0.15s;
-    box-shadow: 5px 5px 0 #b8d4e3;
+    box-shadow: 0.5rem 0.5rem 0px #b8d4e3;
     display: inline-block;
     margin-left: 2rem;
     margin-right: 2rem;
-
 }
 
-.btn_secondary:hover{
+.btn_secondary:hover {
     padding-right: 2rem;
 }
-.btn_secondary:hover i{
-    animation : color_secondary 2s infinite linear;
+.btn_secondary:hover i {
+    animation: color_secondary 2s infinite linear;
 }
-span.arrow_secondary{
+span.arrow_secondary {
     margin-left: 0.2rem;
     position: relative;
 }
 
-span.arrow_secondary i{
+span.arrow_secondary i {
     transition: 0.2s;
 }
 
-span.arrow_secondary i:nth-child(2){
+span.arrow_secondary i:nth-child(2) {
     position: absolute;
     right: 0;
-    top:3px;
-    color:white;
+    top: 3px;
+    color: white;
     animation-delay: 0.5s;
 }
-span.arrow_secondary i:nth-child(3){
+span.arrow_secondary i:nth-child(3) {
     position: absolute;
     right: 0;
-    top:3px;
-    color:white;
+    top: 3px;
+    color: white;
     animation-delay: 1s;
 }
-.btn_secondary:hover i:nth-child(2){
+.btn_secondary:hover i:nth-child(2) {
     right: -0.75rem;
 }
-.btn_secondary:hover i:nth-child(3){
+.btn_secondary:hover i:nth-child(3) {
     right: -1.5rem;
 }
 
 @keyframes color_secondary {
-    0%{
-        color:white;
+    0% {
+        color: white;
     }
-    50%{
+    50% {
         color: #c99da3;
     }
-    100%{
+    100% {
         color: white;
     }
 }
@@ -265,63 +263,62 @@ span.arrow_secondary i:nth-child(3){
     border: 0;
     background: #406e8e;
     font-size: 1.25rem;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
     border-radius: 2px;
     color: white;
     cursor: pointer;
     font-family: Lato, sans-serif;
     transition: 0.15s;
-    box-shadow: 5px 5px 0px #b8d4e3;
+    box-shadow: 0.5rem 0.5rem 0px #b8d4e3;
 }
 
-.btn_third:hover{
+.btn_third:hover {
     padding-right: 2rem;
 }
-.btn_third:hover i{
-    animation : color_third 2s infinite linear;
+.btn_third:hover i {
+    animation: color_third 2s infinite linear;
 }
-span.arrow_third{
+span.arrow_third {
     margin-left: 0.2rem;
     position: relative;
 }
 
-span.arrow_third i{
+span.arrow_third i {
     transition: 0.2s;
 }
 
-span.arrow_third i:nth-child(2){
+span.arrow_third i:nth-child(2) {
     position: absolute;
     right: 0;
-    top:3px;
-    color:white;
+    top: 3px;
+    color: white;
     animation-delay: 0.5s;
 }
-span.arrow_third i:nth-child(3){
+span.arrow_third i:nth-child(3) {
     position: absolute;
     right: 0;
-    top:3px;
-    color:white;
+    top: 3px;
+    color: white;
     animation-delay: 1s;
 }
-.btn_third:hover i:nth-child(2){
+.btn_third:hover i:nth-child(2) {
     right: -0.75rem;
 }
-.btn_third:hover i:nth-child(3){
+.btn_third:hover i:nth-child(3) {
     right: -1.5rem;
 }
 
 @keyframes color_third {
-    0%{
-        color:white;
+    0% {
+        color: white;
     }
-    50%{
+    50% {
         color: #406e8e;
     }
-    100%{
+    100% {
         color: white;
     }
 }
-
 
 /* Section Description */
 .description {
@@ -349,10 +346,9 @@ span.arrow_third i:nth-child(3){
     text-justify: inter-word;
     text-align: justify;
     font-family: Lato, sans-serif;
-
 }
 
-.presentation_text{
+.presentation_text {
     line-height: 3.5vh;
 }
 
@@ -372,10 +368,8 @@ span.arrow_third i:nth-child(3){
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 0;
-
-
 }
-.text_localisation h3{
+.text_localisation h3 {
     font-size: 3vh;
     text-justify: inter-word;
     text-align: justify;
@@ -386,19 +380,19 @@ span.arrow_third i:nth-child(3){
     margin-bottom: 1vh;
     color: #406e8e;
     margin-top: 2vh;
-
 }
-iframe{
+
+iframe {
     display: flex;
     float: right;
     margin-right: 10%;
     margin-left: 2vh;
     margin-top: 2vh;
 }
-.text_horaires p{
+.text_horaires p {
     line-height: 0;
 }
-.text_horaires h3{
+.text_horaires h3 {
     font-size: 1.5rem;
     text-justify: inter-word;
     text-align: justify;
@@ -410,7 +404,7 @@ iframe{
     margin-top: 2vh;
 }
 
-.footer{
+.footer {
     height: 3vh;
     background: #406e8e;
     position: static;
@@ -422,14 +416,14 @@ iframe{
     align-items: center;
     justify-content: center;
 }
-.footer footer a{
+.footer footer a {
     color: white;
     text-decoration: none;
 }
 
 /* Page Prestations */
 
-.title h3{
+.title h3 {
     font-family: Lato, sans-serif;
     font-weight: 900;
     color: black;
@@ -439,7 +433,7 @@ iframe{
     text-transform: uppercase;
 }
 
-.qi h4{
+.qi h4 {
     font-family: Lato, sans-serif;
     font-weight: 700;
     color: #406e8e;
@@ -449,7 +443,7 @@ iframe{
     text-align: left;
     margin-bottom: 2vh;
 }
-.qi p{
+.qi p {
     font-family: Lato, sans-serif;
     font-weight: 400;
     color: black;
@@ -458,9 +452,9 @@ iframe{
     margin-right: 10%;
     text-justify: inter-word;
     text-align: justify;
-
 }
-.attentionel h4{
+
+.attentionel h4 {
     font-family: Lato, sans-serif;
     font-weight: 700;
     color: #406e8e;
@@ -470,7 +464,7 @@ iframe{
     text-align: left;
     margin-bottom: 2vh;
 }
-.attentionel p{
+.attentionel p {
     font-family: Lato, sans-serif;
     font-weight: 400;
     color: black;
@@ -479,7 +473,6 @@ iframe{
     margin-right: 10%;
     text-justify: inter-word;
     text-align: justify;
-
 }
 .attentionel h5 {
     font-family: Lato, sans-serif;
@@ -491,7 +484,8 @@ iframe{
     text-justify: inter-word;
     text-align: justify;
 }
-.psy h4{
+
+.psy h4 {
     font-family: Lato, sans-serif;
     font-weight: 700;
     color: #406e8e;
@@ -501,7 +495,7 @@ iframe{
     text-align: left;
     margin-bottom: 2vh;
 }
-.psy p{
+.psy p {
     font-family: Lato, sans-serif;
     font-weight: 400;
     color: black;
@@ -510,18 +504,18 @@ iframe{
     margin-right: 10%;
     text-justify: inter-word;
     text-align: justify;
-
 }
+
 /* Page Contact */
 
-.contact{
+.contact {
     height: auto;
     margin-top: 5vh;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 5vh;
 }
-.contact h3, ul{
+.contact h3, ul {
     text-align: justify;
     text-justify: inter-word;
 }
@@ -531,9 +525,8 @@ iframe{
     text-justify: inter-word;
     font-family: Lato, sans-serif;
     margin-top: 0;
-
 }
-.contact h3{
+.contact h3 {
     font-size: 3vh;
     text-justify: inter-word;
     text-align: justify;
@@ -543,11 +536,10 @@ iframe{
     color: #406e8e;
     margin-top: 2vh;
 }
-.contact ul li a{
+.contact ul li a {
     color: #406e8e;
     font-weight: 700;
 }
-
 
 @media all and (max-width: 900px) {
 
@@ -601,41 +593,40 @@ iframe{
 
     .btn {
         font-size: 2rem;
-        box-shadow: 5px 5px 0px #b8d4e3;
+        box-shadow: 0.5rem 0.5rem 0px #b8d4e3;
     }
-    .btn:hover{
+    .btn:hover {
         padding-right: 3rem;
     }
 
-    span.arrow i:nth-child(2){
-        top:3px;
+    span.arrow i:nth-child(2) {
+        top: 3px;
     }
-    span.arrow i:nth-child(3){
-        top:3px;
+    span.arrow i:nth-child(3) {
+        top: 3px;
     }
-    .btn:hover i:nth-child(2){
+    .btn:hover i:nth-child(2) {
         right: -1rem;
     }
-    .btn:hover i:nth-child(3){
+    .btn:hover i:nth-child(3) {
         right: -2rem;
     }
     .open .menu {
         transform: translateX(0);
     }
 
-    .btn_secondary{
+    .btn_secondary {
         display: flex;
         margin-left: auto;
         margin-right: auto;
         margin-top: 2vh;
         margin-bottom: 2vh;
-
     }
-    .btn_third{
+    .btn_third {
         display: block;
         margin: auto;
     }
-    .links{
+    .links {
         height: auto;
     }
     .container {
@@ -649,45 +640,32 @@ iframe{
     }
 
     .google-maps {
-        position: relative;
-        padding-bottom: 75%; 
+        padding-bottom: 10%;
         height: 0;
         overflow: hidden;
     }
     .google-maps iframe {
-        position: absolute;
-        top: 0;
-        width: 80% !important;
-        height: 90% !important;
-        margin-left: 10%;
         margin-right: 10%;
-       
+        margin-left: 10%;
+        width: 80% !important;
+        height: 100% !important;
     }
-    .qi h4{
+    .qi h4 {
         margin-top: 2vh;
     }
     .text p, .text li {
-        text-align:left;
+        text-align: left;
     }
     .text_localisation p, .text_localisation h3, .text_localisation li {
         text-align: left;
     }
     .presentation_text {
-    text-align: left;
+        text-align: left;
     }
     .contact li, .contact p {
-        text-align:left;
+        text-align: left;
     }
     .description p, .description li {
         text-align: left;
-    }
-    p {
-        color: #202124;
-        font-family: Lato, sans-serif;
-        font-size: 15rem;
-        font-variant: normal;
-        vertical-align: baseline;
-        text-align: center;
-        padding-bottom: 3vh;
     }
 }
