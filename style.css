@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 2rem;
     text-align: center;
     scroll-behavior: smooth;
 }
@@ -75,7 +75,7 @@ nav {
     cursor: pointer;
     font-family: Lato, sans-serif;
     transition: 0.15s;
-    box-shadow: 5px 5px #b8d4e3;
+    box-shadow: 0.5rem 0.5rem #b8d4e3;
 }
 
 .btn:hover{
@@ -96,14 +96,14 @@ span.arrow i{
 span.arrow i:nth-child(2){
     position: absolute;
     right: 0;
-    top:2px;
+    top:0.2rem;
     color:white;
     animation-delay: 0.5s;
 }
 span.arrow i:nth-child(3){
     position: absolute;
     right: 0;
-    top:2px;
+    top:0.2rem;
     color:white;
     animation-delay: 1s;
 }
@@ -138,7 +138,7 @@ h1 {
     font-size: 3rem;
     color: black;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 0.2rem;
     padding-bottom: 1vh;
     text-transform: uppercase;
 }
@@ -149,14 +149,14 @@ h2{
     color: black;
     text-align: center;
     padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-bottom: 0.2rem;
     letter-spacing: 2px;
 }
 
 hr.title {
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 20rem;
     border: solid rgb(184, 212, 227);
     border-bottom-width: 4px;
     display: block;
@@ -164,7 +164,7 @@ hr.title {
 hr.title_secondary {
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
+    width: 20rem;
     border: solid black;
     border-bottom-width: 4px;
     display: block;
